@@ -1,0 +1,30 @@
+.loginForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.regForm{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+.loginFormInput{
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.loginInputs{
+    width: 350px;
+    margin: 100px auto;
+}
+
+.buttonInner{
+    display: flex;
+}
+
+.buttonLogIn{
+    margin: 10px auto;
+    width: 50%;
+}

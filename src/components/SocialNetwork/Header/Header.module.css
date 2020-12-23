@@ -1,0 +1,55 @@
+.headerActive{
+    display: flex;
+    align-items: center;
+    float: right;
+    position: relative;
+    cursor: pointer;
+    background: #edeef0;
+    padding: 5px 10px;
+}
+
+.headerDisable{
+    display: flex;
+    align-items: center;
+    float: right;
+    position: relative;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.headerComponent{
+    width: 1070px;
+    height: 50px;
+}
+
+.face{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.headerAbsolute{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+
+.headerModalActive{
+    position: absolute;
+    background: white;
+    padding: 10px;
+    width: 50px;
+    height: 25px;
+    bottom: -50px;
+    display: block;
+    border: 1px solid #e7e8ec;
+}
+
+.headerModalDisable{
+    display: none;
+}

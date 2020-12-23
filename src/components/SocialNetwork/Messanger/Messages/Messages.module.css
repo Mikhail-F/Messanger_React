@@ -1,0 +1,107 @@
+.right{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 40px;
+}
+
+.left{
+    display: flex;
+    margin: 0 40px;
+}
+
+.messagesBlock{
+    max-height: 300px;
+    min-height: 100%;
+    display: flex;
+    flex-basis: 80%;
+    flex-direction: column;
+    justify-content: space-between;
+    background: white;
+    border: 1px solid #e7e8ec;
+}
+
+.messages{
+    overflow: auto;
+    height: 100%;
+}
+
+.messagesForm{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background: #fafbfc;
+    border-top: 1px solid #e7e8ec;
+}
+
+.inputFormMessage{
+    width: 70%;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: 1px solid #e7e8ec;
+}
+
+.face{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.profile{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 1px solid #e7e8ec;
+    padding: 5px 15px;
+}
+
+.talkName{
+    margin-right: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+
+.messageBlockLeft{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e7e8ec;
+    padding: 2px 5px;
+}
+
+.messageBlockRight{
+    margin-bottom: 10px;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e7e8ec;
+    padding: 2px 5px;
+}
+
+.message{
+    display: flex;
+    align-items: center;
+}
+
+.messageReverse{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.message .text{
+    margin-right: 10px;
+}
+
+.messageReverse .text{
+    margin-left: 10px;
+}
+
+.time{
+    color: lightGrey;
+    font-size: 13px;
+}
+
+.editMessage{
+    cursor: pointer;
+}
